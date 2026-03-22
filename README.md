@@ -7,7 +7,7 @@
 **University:** University of the Cumberlands  
 
 ### Overview
-This assignment focuses on analyzing and comparing the efficiency and scalability of two fundamental algorithmic techniques:
+In this assignment, I analyzed and compared the efficiency and scalability of two fundamental algorithmic techniques:
 
 - Randomized Quicksort  
 - Hash Table with Chaining  
@@ -61,4 +61,4 @@ The program will display:
 - Hash table operation results  
 
 ### Conclusion
-This project demonstrates that algorithm performance depends heavily on design choices. Randomized Quicksort provides reliable scalability, while Deterministic Quicksort is prone to failure under certain conditions. Hash tables using chaining offer efficient data retrieval when the load factor is properly managed.
+From this project, I observed that algorithm performance depends heavily on design choices. Randomized Quicksort provides reliable scalability, while Deterministic Quicksort is prone to failure under certain conditions. Hash tables using chaining offer efficient data retrieval when the load factor is properly managed.
