@@ -6,7 +6,7 @@
 **Course:** MSCS-532 – Algorithms and Data Structures  
 **University:** University of the Cumberlands  
 
-## Overview
+### Overview
 This assignment focuses on analyzing and comparing the efficiency and scalability of two fundamental algorithmic techniques:
 
 - Randomized Quicksort  
@@ -14,7 +14,7 @@ This assignment focuses on analyzing and comparing the efficiency and scalabilit
 
 The project includes both theoretical analysis and empirical testing to evaluate algorithm performance under different input conditions.
 
-## Implemented Components
+### Implemented Components
 ### 🔹 1. Randomized Quicksort
 - Pivot is selected randomly  
 - Provides stable average-case performance  
@@ -31,14 +31,14 @@ The project includes both theoretical analysis and empirical testing to evaluate
   - Delete  
 - Average-case complexity: **O(1)**  
 
-## Experimental Setup
+### Experimental Setup
 The algorithms were tested on different types of datasets:
 - Random arrays  
 - Sorted arrays  
 - Reverse-sorted arrays  
 - Arrays with repeated elements  
 
-## Key Observations
+### Key Observations
 - Randomized Quicksort performed consistently across all datasets  
 - Deterministic Quicksort failed on:
   - Sorted data  
@@ -46,7 +46,7 @@ The algorithms were tested on different types of datasets:
 - Recursion errors occurred due to poor pivot selection  
 - Hash table operations worked efficiently with chaining  
 
-## How to Run the Code
+### How to Run the Code
 ### Step 1: Clone Repository
 git clone https://github.com/Ranjith8534/MSCS532_Assignment3.git
 ### Step 2: Navigate to Folder
@@ -54,11 +54,11 @@ cd MSCS532_Assignment3
 ### Step 3: Run Program
 python test.py
 
-## Output
+### Output
 The program will display:
 - Execution times for both sorting algorithms  
 - Performance comparison across datasets  
 - Hash table operation results  
 
-## Conclusion
+### Conclusion
 This project demonstrates that algorithm performance depends heavily on design choices. Randomized Quicksort provides reliable scalability, while Deterministic Quicksort is prone to failure under certain conditions. Hash tables using chaining offer efficient data retrieval when the load factor is properly managed.
