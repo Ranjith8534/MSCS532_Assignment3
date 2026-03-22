@@ -80,8 +80,3 @@ The program will display:
 ## Conclusion
 
 This project demonstrates that algorithm performance depends heavily on design choices. Randomized Quicksort provides reliable scalability, while Deterministic Quicksort is prone to failure under certain conditions. Hash tables using chaining offer efficient data retrieval when the load factor is properly managed.
-
-## 📎 Submission
-
-GitHub Repository:  
-👉 https://github.com/Ranjith8534/MSCS532_Assignment3
