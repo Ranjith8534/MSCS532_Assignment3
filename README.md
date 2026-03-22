@@ -6,8 +6,6 @@
 **Course:** MSCS-532 – Algorithms and Data Structures  
 **University:** University of the Cumberlands  
 
----
-
 ## Overview
 
 This assignment focuses on analyzing and comparing the efficiency and scalability of two fundamental algorithmic techniques:
@@ -17,8 +15,6 @@ This assignment focuses on analyzing and comparing the efficiency and scalabilit
 
 The project includes both theoretical analysis and empirical testing to evaluate algorithm performance under different input conditions.
 
----
-
 ## Implemented Components
 
 ### 🔹 1. Randomized Quicksort
@@ -26,14 +22,12 @@ The project includes both theoretical analysis and empirical testing to evaluate
 - Provides stable average-case performance  
 - Time complexity: **O(n log n)** (average)
 
----
 
 ### 🔹 2. Deterministic Quicksort
 - Pivot is the first element  
 - Sensitive to input order  
 - Worst-case complexity: **O(n²)**  
 
----
 
 ### 🔹 3. Hash Table with Chaining
 - Collision resolution using linked lists  
@@ -43,7 +37,6 @@ The project includes both theoretical analysis and empirical testing to evaluate
   - Delete  
 - Average-case complexity: **O(1)**  
 
----
 
 ## Experimental Setup
 
@@ -54,7 +47,6 @@ The algorithms were tested on different types of datasets:
 - Reverse-sorted arrays  
 - Arrays with repeated elements  
 
----
 
 ## Key Observations
 
@@ -65,23 +57,17 @@ The algorithms were tested on different types of datasets:
 - Recursion errors occurred due to poor pivot selection  
 - Hash table operations worked efficiently with chaining  
 
----
-
 ## How to Run the Code
 
 ### Step 1: Clone Repository
 git clone https://github.com/Ranjith8534/MSCS532_Assignment3.git
-```
 
 ### Step 2: Navigate to Folder
 cd MSCS532_Assignment3
-```
 
 ### Step 3: Run Program
 python test.py
-```
 
----
 
 ## Output
 
@@ -90,7 +76,6 @@ The program will display:
 - Performance comparison across datasets  
 - Hash table operation results  
 
----
 
 ## Conclusion
 
