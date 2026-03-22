@@ -15,15 +15,15 @@ This assignment focuses on analyzing and comparing the efficiency and scalabilit
 The project includes both theoretical analysis and empirical testing to evaluate algorithm performance under different input conditions.
 
 ### Implemented Components
-### 🔹 1. Randomized Quicksort
+###  1. Randomized Quicksort
 - Pivot is selected randomly  
 - Provides stable average-case performance  
 - Time complexity: **O(n log n)** (average)
-### 🔹 2. Deterministic Quicksort
+###  2. Deterministic Quicksort
 - Pivot is the first element  
 - Sensitive to input order  
 - Worst-case complexity: **O(n²)**  
-### 🔹 3. Hash Table with Chaining
+###  3. Hash Table with Chaining
 - Collision resolution using linked lists  
 - Supports:
   - Insert  
